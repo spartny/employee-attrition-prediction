@@ -56,4 +56,7 @@ The models were evaluated based on metrics such as accuracy, precision, recall, 
 ### Model Performance
 - The tuned **Logistic Regression** model provided the best performance, with a ROC AUC score of **0.815**, indicating a strong ability to distinguish between employees who are likely to leave and those who will stay. Moreover, the **Random Forest** model while not that behind with ROC AUC score of **0.794**, provided explainability and importances of certain attributes that are strong indicators of attrition.
 
+### Neural Networks
+Additionally tested Artificial Neural Networks as Classifiers for this task, experimented with a variety of activation functions such as `ReLU`, `Swish`, `ELU`, `leaky ReLU` and found `Leaky ReLU` to be the best performing in this network of 4 hidden layers.
+The ANN had a ROC AUC Score of **0.846**, this outperforms the Logistic Regression Model and the Random Forest
 
